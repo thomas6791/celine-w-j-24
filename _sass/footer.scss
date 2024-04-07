@@ -1,8 +1,9 @@
 footer {
     background-color: $black;
-    border: solid 1px;
-    a {color: white;}
-    .inside {border: solid 1px;}
+    font-family: 'Inter';
+    color: white;
+    a {color: white; text-decoration: none;}
+    .inside {}
     .logo-footer {
         width: 80px;
         height: auto;
