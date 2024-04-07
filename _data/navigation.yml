@@ -1,12 +1,8 @@
-- name: Home
-  link: /
-- name: About
-  link: /about.html
-- name: Home
-  link: /
-- name: About
-  link: /about.html
-- name: Contact
+- name: Nos services
+  link: /traitement-nuisibles.html
+- name: A propos
   link: /about.html
 - name: Actualites
   link: /about.html
+- name: Nous contacter
+  link: /contact.html

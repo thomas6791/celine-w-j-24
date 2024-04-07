@@ -22,9 +22,9 @@
         &.inside { padding: 0 !important; margin: 0 !important; }
         li {
           margin-right: 5px;
-          color: white;
+          color: $black;
           padding: 10px 5px;
-          a { color: white; }
+          a { color: $black; }
         }
         li:last-child {
           border: solid 1.5px $yellow;
@@ -59,7 +59,8 @@
       }
     }
     .logo {
-      filter: brightness(0) invert(1);
+      //filter: brightness(0) invert(1);
+      
       //content:url('/assets/images/icones/finay-logo-white.png');
       //width: 50px;
     }
