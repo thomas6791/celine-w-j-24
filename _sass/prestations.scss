@@ -1,6 +1,7 @@
 .chapo {
     width: 100%;
     display: flex;
+    margin-top: 12em;
     .chapo_img {
         width: 25%;
         justify-content: center;
@@ -16,6 +17,36 @@
         padding-left: 20px;
         h1 {font-size: 2.5rem;
             margin: 0;
+        }
+    }
+}
+.services {
+    //border: solid 1px;
+    width: 100%;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    li {
+        border:solid 1px;width: 100%;
+        margin: 0 !important;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        a {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height: 100%;
+            .service_img {
+                height: 200px;
+                //border: solid 1px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                img {}
+            }
+            h3 {width: 100%;display: flex; justify-content: center;}
         }
     }
 }
