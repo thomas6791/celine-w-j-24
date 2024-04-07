@@ -18,14 +18,14 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-email: your-email@example.com
+title: La petite bête qui pique | entreprise de traitement des nuisibles
+email: contact@finay.fr
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "https://www.la-petite-bete-qui-pique.fr" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 
@@ -33,6 +33,39 @@ github_username:  jekyll
 theme: minima
 plugins:
   - jekyll-feed
+
+image:
+  path: /assets/images/opengraph.jpeg
+  #height: 100
+  #width: 100
+  alt: Facebook logo
+
+
+
+pages_mentions:
+  adresse_site: https://www.la-petite-bete-qui-pique.fr
+  raison_sociale: La petite bête qui pique
+  nom_entreprise: La petite bête qui pique
+  responsable_donnees_personnelles: XXX
+  capital_social: 3 000€
+  tva_intra: FR86984730283
+  siren: 984730283
+  adresse_entreprise: 10 route de la carriere
+  zip_code_entreprise: 50210
+  ville_entreprise: Savigny
+  tel_entreprise: +33669515950
+  mail_entreprise: contact@finay.fr
+  nom_site: la-petite-bete-qui-pique.fr.fr
+  directeur_publication: La petite bête qui pique
+  hebergeur_name: netlify
+  hebergeur_site : https://www.netlify.com
+  hebergeur_adresse: sise 610 22nd Street, Suite 315 – CA 94107 San Francisco +1 (844) 899-7312
+
+  editeur_site: weddoz SAS
+
+
+
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
