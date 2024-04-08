@@ -86,3 +86,8 @@
         img {width: 100%; border-radius: 3px;}
     }
 }
+.liste_zones {
+    display: flex;
+    flex-wrap: wrap;
+    li {border: solid 1px; margin:0 !important; padding: 3px 5px; border-radius: 2px; color: rgb(161, 151, 151); margin-right: 3px !important; margin-bottom: 3px !important;}
+}
