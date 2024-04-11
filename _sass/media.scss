@@ -242,6 +242,14 @@
       flex-direction: column;
       img { width: 100%; margin: auto; padding: 0 2em;}
     }
+    .chapo {
+      flex-direction: column;
+      align-items: center;
+      .chapo_text {
+        width: 100%;
+        padding: 0;
+      }
+    }
   }
   
   /* Medium screens - TABLET */
