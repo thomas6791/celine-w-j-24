@@ -322,6 +322,11 @@
     height: auto;
     img {max-width: 100%;}
   }
+  .initial_liste {
+    display: initial;
+    list-style: circle;
+    list-style-position: inside;
+  }
   @media all and (max-width: 480px) {
     .grid.four, .grid.four-bis {
       grid-template-columns: repeat(1, 1fr) !important;
