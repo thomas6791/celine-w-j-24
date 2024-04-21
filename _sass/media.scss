@@ -250,6 +250,20 @@
         padding: 0;
       }
     }
+    form {
+      max-width: 100%;
+      button {width: 100%;margin-top: 1em;
+        font-size: 1em;padding: 10px;
+      }
+    }
+    .flex-form {
+      flex-wrap: wrap;
+      width: 100%;
+      p { margin-right: 0px; margin-bottom: 10px;}
+      input, select {margin-bottom: 10px;
+        line-height: 3em; height: 3em;
+      }
+    }
   }
   
   /* Medium screens - TABLET */
