@@ -1,45 +1,36 @@
 <form id="form" name="contact" action="/send" method="POST" netlify-honeypot="bot-field" data-netlify="true">
-    <div class="long">
+    <div class="flex-form">
       <p><label><input type="text" name="lastname" required="true" placeholder="Nom*" /></label></p>
       <p><label><input type="text" name="firstname" required="true" placeholder="Prénom*" /></label></p>
     </div>
-    <div class="long">
+    <div class="flex-form">
       <p><label><input type="email" name="email" required="true" placeholder="Email*" /></label></p>
       <p><label><input type="tel" name="tel" required="true" placeholder="Tel*"></label></p>
+    </div>
+    <div class="flex-form">
+      <p>
+          <select name="objet" required="true" placeholder="Objet*">
+            <option value="">Je suis un particulier/une entreprise ?</option>
+            <option value="particulier">Particulier</option>
+            <option value="entreprise">Entreprise</option>
+        </select>
+      
+      </p>
     </div>
     <!--
     <div>
       <p><label><input type="text" name="adresse" required="true" placeholder="Adresse*"></label></p>
     </div>
     -->
-    <div class="long">
+    <div class="flex-form">
       <p><label for=""><input type="text" name="code postal" required="true" placeholder="Code Postal*"></label></p>
-      <!--
       <p><label for=""><input type="text" name="ville" required="true" placeholder="Ville*"></label></p>
-      -->
     </div>
     <!--
-    <div>
-      <p>
-        
-          
-          <select name="objet" required="true" placeholder="Objet*">
-            <option value="">Type de demande*</option>
-            <option value="Isolation extérieure">Isolation extérieure</option>
-            <option value="Travaux de chauffage">Travaux de chauffage</option>
-            <option value="Ravalement de façade">Ravalement de façade</option>
-            <option value="Toiture et zinguerie">Toiture et zinguerie</option>
-            <option value="Questions sur les aides">Questions sur les aides</option>
-            <option value="Bouquet de travaux">Bouquet de travaux (plusieurs travaux)</option>
-            <option value="Autre">Autre demande</option>
-        </select>
-      
-      </p>
-    </div>
     -->
     <div>
       <p>
-        <label for=""><textarea type="text" name="message" placeholder="Message" rows="3"></textarea></label>
+        <label for=""><textarea type="text" name="message" placeholder="Message" rows="10"></textarea></label>
       </p>
     </div>
     <div class="checkbox">
