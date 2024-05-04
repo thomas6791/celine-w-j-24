@@ -68,7 +68,7 @@
 .professionnels_liste {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
-    grid-template-rows: 150px 150px;
+    grid-auto-rows: 150px;
     gap: 5px;
     li {
         //border: solid 1px;
