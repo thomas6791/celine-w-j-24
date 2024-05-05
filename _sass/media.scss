@@ -264,6 +264,13 @@
         line-height: 3em; height: 3em;
       }
     }
+    .inside.frelons {
+      h3 {text-align: center;}
+      .flex {
+        flex-direction: column;
+        img {width: 50%; margin: auto;}
+      }
+    }
   }
   
   /* Medium screens - TABLET */
