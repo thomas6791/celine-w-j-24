@@ -1,9 +1,16 @@
 footer {
     background-color: $black;
-    font-family: 'Inter';
+    font-family: 'Avenir';
     color: white;
+    padding-top: 1em;
+    padding-bottom: 1em;
     a {color: white; text-decoration: none;}
-    .inside {}
+    .inside {
+    }
+    .mentions {
+        display: flex;
+        justify-content: space-between;
+    }
     .logo-footer {
         width: 80px;
         height: auto;
