@@ -39,7 +39,7 @@
     margin: 0;
     justify-content: center;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    grid-template-columns: repeat(3, minmax(180px, 1fr));
     gap: 4px;
     li {
         border:solid 1px lightgrey;
@@ -61,7 +61,7 @@
                 align-items: center;
                 img {max-width: 100%;}
             }
-            h3 {width: 100%;display: flex; justify-content: center;}
+            h3 {width: 100%;display: flex; justify-content: center; text-align: center;}
         }
     }
 }
