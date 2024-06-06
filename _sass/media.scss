@@ -271,6 +271,9 @@
         img {width: 50%; margin: auto;}
       }
     }
+    .services {
+      grid-template-columns: repeat(1, minmax(180px, 1fr));
+    }
   }
   
   /* Medium screens - TABLET */
