@@ -326,6 +326,7 @@
     display: initial;
     list-style: circle;
     list-style-position: inside;
+    li {font-family: "Avenir", sans-serif;}
   }
   @media all and (max-width: 480px) {
     .grid.four, .grid.four-bis {
