@@ -1,0 +1,10 @@
+.grid_three {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+@media only screen and (max-width: 40em) {
+    .grid_three {
+        grid-template-columns: 1fr;
+    }
+}
