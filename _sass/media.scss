@@ -274,6 +274,18 @@
     .services {
       grid-template-columns: repeat(1, minmax(180px, 1fr));
     }
+
+    .chapo_btn,.chapo {
+      justify-content: center;
+      display: flex;
+      margin-bottom: 0px !important;
+      a {
+        text-align: center;
+        width: 80% !important;
+        line-height: 2.2em;
+        font-weight: 500 !important;
+      }
+    }
   }
   
   /* Medium screens - TABLET */
